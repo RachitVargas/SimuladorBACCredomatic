@@ -20,7 +20,7 @@ public class Presentacion {
         output.println("Bienvenido al simulador de BAC Credomatic");
         output.println("Elija una opción por favor:");
         output.println("1. Cargar simulación");
-        output.println("2. Establencer número de cajas normales y de prioridad");
+        output.println("2. Establencer número de cajas");
         output.println("3. Correr simulación");
         output.println("4. Mostrar resultados de la simulación");
         output.println("5. Salir");

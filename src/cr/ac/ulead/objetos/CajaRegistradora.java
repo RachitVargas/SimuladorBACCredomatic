@@ -4,7 +4,15 @@ public class CajaRegistradora {
 
     private boolean disponible = true;
     private int tiempoTramite;
+    private int tiempoTramiteParaCola;
 
+    public int getTiempoTramiteParaCola() {
+        return tiempoTramiteParaCola;
+    }
+
+    public void setTiempoTramiteParaCola(int tiempoTramiteParaCola) {
+        this.tiempoTramiteParaCola = tiempoTramiteParaCola;
+    }
     public int getTiempoTramite() {
         return tiempoTramite;
     }
@@ -44,9 +52,7 @@ public class CajaRegistradora {
 
         return minuto;
     }
-
     public double calcularRandom() {
         return Math.random();
     }
-
 }

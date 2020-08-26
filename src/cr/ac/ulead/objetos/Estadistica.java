@@ -15,4 +15,16 @@ public class Estadistica {
         promedio = sumaTramite / cantidadTramites;
         return promedio;
     }
+
+    public double promedioEsperaCola(ArrayList<Integer> promedioEsperaCola) {
+
+        double sumaTramite = 0;
+        double promedio = 0;
+        int cantidadTramites = promedioEsperaCola.size();
+        for (int i = 0; i < promedioEsperaCola.size(); i++) {
+            sumaTramite = sumaTramite + promedioEsperaCola.get(i);
+        }
+        promedio = sumaTramite / cantidadTramites;
+        return promedio;
+    }
 }
